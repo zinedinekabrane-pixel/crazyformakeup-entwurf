@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Crazy for Make-Up · Kosmetik und Make-up in Männedorf (Entwurf)</title>
+<meta name="description" content="Make-up, Wimpern, Microblading, Nägel, Waxing und Massage bei Rita Mühlethaler in Männedorf. Termin online buchen.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+<style>
+:root{--pink:#e93e8e;--pink-d:#c42a74;--pink-l:#fdf0f6;--ink:#232323;--mute:#5f5f66;--line:#ece4e8;--bg:#ffffff;--wrap:1160px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;font-family:Montserrat,"Helvetica Neue",Arial,sans-serif;color:var(--ink);background:var(--bg);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--pink-d)}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 20px}
+.draft{background:#232323;color:#fff;font-size:13px;text-align:center;padding:7px 16px;letter-spacing:.02em}
+.topbar{background:var(--pink);color:#fff;font-size:14px;font-weight:500}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:38px}
+.topbar a{color:#fff;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.topbar .soc{display:flex;gap:14px}
+header.main{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header.main .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:76px}
+.logo img{height:58px;width:auto}
+nav.menu{display:flex;align-items:center;gap:26px;font-weight:500;font-size:15px}
+nav.menu a{color:var(--ink);text-decoration:none}
+nav.menu a:hover{color:var(--pink-d)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--pink-d);color:#fff;font-weight:600;text-decoration:none;padding:13px 22px;border-radius:999px;font-size:15px;border:2px solid var(--pink-d);transition:background .2s}
+.btn:hover{background:#a91f61;border-color:#a91f61}
+.btn.ghost{background:transparent;color:var(--pink-d)}
+.btn.ghost:hover{background:var(--pink-l)}
+.btn-small{padding:9px 16px;font-size:14px}
+nav.menu .btn{color:#fff}
+.hero{position:relative;background:#f6f6f6 url("https://crazyformakeup.ch/wp-content/uploads/2022/07/slide-1-1.jpg") right center/cover no-repeat}
+.hero .wrap{min-height:540px;display:flex;align-items:center}
+.hero-text{max-width:520px;padding:56px 0}
+.hero h1{font-size:clamp(34px,4.6vw,54px);line-height:1.08;color:var(--pink);font-weight:600;margin:0 0 18px;letter-spacing:-.01em;text-transform:uppercase}
+.hero p{font-size:18px;margin:0 0 26px;color:#333}
+.hero .actions{display:flex;flex-wrap:wrap;gap:12px}
+.facts{background:var(--pink-l)}
+.facts .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding-top:22px;padding-bottom:22px}
+.fact{display:flex;gap:12px;align-items:flex-start;font-size:15px}
+.fact svg{color:var(--pink-d);flex:none;margin-top:3px}
+.fact b{display:block;font-weight:600}
+.fact a{color:var(--ink)}
+section.block{padding:76px 0}
+.kicker{color:var(--pink-d);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 8px}
+h2{font-size:clamp(28px,3.4vw,38px);line-height:1.15;margin:0 0 14px;font-weight:600;color:var(--ink)}
+.lead{max-width:680px;color:var(--mute);margin:0 0 34px;font-size:17px}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.tile{position:relative;display:block;border-radius:14px;overflow:hidden;aspect-ratio:4/3;background:#eee;text-decoration:none;color:#fff}
+.tile img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.tile:hover img{transform:scale(1.05)}
+.tile span{position:absolute;inset:auto 0 0 0;padding:40px 16px 14px;background:linear-gradient(transparent,rgba(0,0,0,.66))}
+.tile b{display:block;font-size:17px;font-weight:600;line-height:1.25}
+.tile small{display:block;font-size:13px;opacity:.92}
+.prices-wrap{background:#faf7f8;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.cat{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px;margin-bottom:22px;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:30px}
+.cat.multi{grid-template-columns:1fr}
+.cat.multi .cat-head{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:30px;align-items:center}
+.cat.multi .cat-prices{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.cat-head img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:12px;background:#eee;margin-bottom:16px}
+.cat.multi .cat-head img{margin-bottom:0}
+.cat h3{font-size:24px;margin:0 0 8px;font-weight:600;color:var(--pink-d)}
+.cat-head p{margin:0 0 16px;color:var(--mute);font-size:15.5px}
+.cat h4{font-size:14px;letter-spacing:.1em;text-transform:uppercase;margin:0 0 6px;color:var(--ink)}
+.prices{list-style:none;margin:0;padding:0}
+.prices li{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-bottom:1px dashed #e3d6dc}
+.prices li:last-child{border-bottom:0}
+.pn{font-weight:500}
+.pn small{display:block;color:var(--mute);font-weight:400;font-size:13.5px}
+.pp{font-weight:600;white-space:nowrap}
+.about{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,7fr);gap:48px;align-items:center}
+.about img{border-radius:18px;width:100%;max-width:380px;aspect-ratio:736/1101;object-fit:cover;background:#eee}
+.about p{font-size:17px;color:#3a3a3a}
+.brands{margin-top:22px;padding-top:18px;border-top:1px solid var(--line);font-size:15px;color:var(--mute)}
+.brands b{color:var(--ink);font-weight:600}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.card{border:1px solid var(--line);border-radius:18px;padding:28px;background:#fff}
+.card h3{margin:0 0 14px;font-size:21px;font-weight:600}
+.hours{list-style:none;margin:0 0 12px;padding:0}
+.hours li{display:flex;justify-content:space-between;gap:14px;padding:9px 0;border-bottom:1px solid var(--line)}
+.hours li:last-child{border-bottom:0}
+.hours .closed{color:var(--mute)}
+.lines{list-style:none;margin:0 0 20px;padding:0}
+.lines li{display:flex;gap:12px;align-items:flex-start;padding:7px 0}
+.lines svg{color:var(--pink-d);flex:none;margin-top:3px}
+.lines a{color:var(--ink)}
+.cta-book{background:var(--pink);color:#fff;border-radius:18px;padding:34px;display:flex;justify-content:space-between;align-items:center;gap:20px;margin-top:28px}
+.cta-book h3{margin:0 0 4px;font-size:24px;font-weight:600}
+.cta-book p{margin:0}
+.cta-book .btn{background:#fff;color:var(--pink-d);border-color:#fff}
+.cta-book .btn:hover{background:var(--pink-l)}
+footer{background:#232323;color:#d8d8d8;font-size:14px;padding:34px 0 40px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:18px}
+footer a{color:#fff}
+footer details{max-width:560px}
+footer summary{cursor:pointer;color:#fff;font-weight:500}
+footer details p{margin:10px 0 0;line-height:1.55}
+.mobilebar{display:none}
+@media (max-width:980px){
+  nav.menu a:not(.btn){display:none}
+  .tiles{grid-template-columns:repeat(2,1fr)}
+  .cat,.cat.multi .cat-head{grid-template-columns:minmax(0,1fr);gap:18px}
+  .cat.multi .cat-head img{margin-bottom:0}
+  .about{grid-template-columns:minmax(0,1fr);gap:28px}
+  .contact{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:700px){
+  body{padding-bottom:68px}
+  .topbar .wrap{justify-content:center}
+  .topbar .soc,.topbar .mail{display:none}
+  header.main .wrap{min-height:64px}
+  .logo img{height:46px}
+  nav.menu{display:none}
+  .hero{background:#fff}
+  .hero::before{content:"";display:block;height:230px;background:url("https://crazyformakeup.ch/wp-content/uploads/2022/07/slide-1-1.jpg") 78% center/cover no-repeat}
+  .hero .wrap{min-height:0}
+  .hero-text{padding:28px 0 40px}
+  .hero p{font-size:16.5px}
+  .facts .wrap{grid-template-columns:1fr;gap:12px}
+  section.block{padding:54px 0}
+  .tiles{gap:10px}
+  .tile b{font-size:15px}
+  .tile small{display:none}
+  .cat{padding:18px;border-radius:14px}
+  .cat.multi .cat-prices{grid-template-columns:minmax(0,1fr);gap:18px}
+  .cta-book{flex-direction:column;align-items:flex-start;padding:26px}
+  .mobilebar{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:30;background:#fff;border-top:1px solid var(--line);padding:10px 12px calc(10px + env(safe-area-inset-bottom))}
+  .mobilebar .btn{padding:12px 10px}
+}
+</style>
+</head>
+<body>
+<div class="draft">Entwurf der überarbeiteten Website · noch nicht offiziell online</div>
+<div class="topbar"><div class="wrap">
+  <div style="display:flex;gap:18px;flex-wrap:wrap">
+    <a href="tel:+41799047454"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg>079 904 74 54</a>
+    <a class="mail" href="mailto:info@crazyformakeup.ch"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6 8.5 7 8.5-7"/></g></svg>info@crazyformakeup.ch</a>
+  </div>
+  <div class="soc">
+    <a href="https://www.facebook.com/crazyformakeup.ch" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M14 8h3V4.5h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v3.5h2.5V21H13v-6.5h3l.5-3.5H13V9.3c0-.8.4-1.3 1-1.3z"/></svg></a>
+    <a href="https://www.instagram.com/_crazyfor_makeup/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".9" fill="currentColor" stroke="none"/></g></svg></a>
+  </div>
+</div></div>
+<header class="main"><div class="wrap">
+  <a class="logo" href="#top" aria-label="Crazy for Make-Up, zum Seitenanfang"><img src="https://crazyformakeup.ch/wp-content/uploads/2022/08/logo-crazy-for-makeup-1030x494.png" alt="Crazy for Make-Up" width="121" height="58"></a>
+  <nav class="menu" aria-label="Hauptmenü">
+    <a href="#angebote">Angebote</a>
+    <a href="#preise">Preise</a>
+    <a href="#ueber-mich">Über mich</a>
+    <a href="#kontakt">Kontakt</a>
+    <a class="btn btn-small" href="https://booking.localsearch.ch/bookings/crazy-for-make-up-564f0227-c4b2-41ca-ba70-2f5c1109ea0f/services?locale=de-CH" target="_blank" rel="noopener">Termin buchen</a>
+  </nav>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap"><div class="hero-text">
+  <h1>Ihre Schönheit – meine Leidenschaft</h1>
+  <p>Ob Make-up, lange und dichte Wimpern, Microblading, gepflegte Hände und Füsse oder glatte Haut: In meinem Studio in Männedorf finden Sie alles, was das Herz begehrt.</p>
+  <div class="actions">
+    <a class="btn" href="https://booking.localsearch.ch/bookings/crazy-for-make-up-564f0227-c4b2-41ca-ba70-2f5c1109ea0f/services?locale=de-CH" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></g></svg>Termin online buchen</a>
+    <a class="btn ghost" href="#angebote">Angebote ansehen</a>
+  </div>
+</div></div></section>
+
+<div class="facts"><div class="wrap">
+  <div class="fact"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></g></svg><div><b>Montag, Dienstag und Freitag</b>10:00 – 18:00 Uhr</div></div>
+  <div class="fact"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></g></svg><div><b>Kugelgasse 1</b>8708 Männedorf</div></div>
+  <div class="fact"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg><div><b>Termine auch per Telefon</b><a href="tel:+41799047454">079 904 74 54</a></div></div>
+</div></div>
+
+<section class="block" id="angebote"><div class="wrap">
+  <p class="kicker">Angebote</p>
+  <h2>Was ich für Sie tun kann</h2>
+  <p class="lead">Von Make-up und Wimpern über Microblading bis zur Manicure, Waxing oder Massage. Tippen Sie auf ein Angebot, um Preise und Dauer zu sehen.</p>
+  <div class="tiles">
+<a class="tile" href="#make-up"><img src="https://crazyformakeup.ch/wp-content/uploads/2022/07/eye-shadows-makeup-artist-working-2021-08-29-01-18-41-utc-705x529.jpg" alt="" loading="lazy" width="400" height="300"><span><b>Make-up</b><small>Tages-, Abend- und Braut-Make-up</small></span></a>
+<a class="tile" href="#beratung"><img src="https://crazyformakeup.ch/wp-content/uploads/2022/07/close-up-shot-of-red-lipsticks-of-various-shades-o-2021-08-29-19-39-07-utc-705x470.jpg" alt="" loading="lazy" width="400" height="300"><span><b>Make-up-Beratung</b><small>Allein oder mit Freundinnen</small></span></a>
+<a class="tile" href="#wimpern"><img src="https://crazyformakeup.ch/wp-content/uploads/2022/07/eyelash-extension-procedure-2022-01-07-23-08-33-utc-705x470.jpg" alt="" loading="lazy" width="400" height="300"><span><b>Wimpern und Augenbrauen</b><small>Verlängerung, Welle, Lifting</small></span></a>
+<a class="tile" href="#microblading"><img src="https://crazyformakeup.ch/wp-content/uploads/2022/07/beauty-salon-microblading-eyebrows-2021-08-26-16-53-39-utc-845x684.jpg" alt="" loading="lazy" width="400" height="300"><span><b>Microblading und Permanent Make-up</b><small>Brauen und Lidstrich, die bleiben</small></span></a>
+<a class="tile" href="#gesicht"><img src="https://crazyformakeup.ch/wp-content/uploads/2022/07/makeup-brush-and-decorative-cosmetics-on-a-white-b-2022-02-01-23-41-01-utc-1030x1030.jpg" alt="" loading="lazy" width="400" height="300"><span><b>Gesichtsbehandlung</b><small>Hyaluron gegen Fältchen</small></span></a>
+<a class="tile" href="#naegel"><img src="https://crazyformakeup.ch/wp-content/uploads/2022/07/lady-with-violet-manicure-nails-2021-12-15-21-22-49-utc-1030x688.jpg" alt="" loading="lazy" width="400" height="300"><span><b>Nägel</b><small>Manicure und Pedicure</small></span></a>
+<a class="tile" href="#waxing"><img src="https://crazyformakeup.ch/wp-content/uploads/2022/07/liquid-sugar-wax-on-spatula-smooth-2021-09-02-12-43-21-utc-1030x688.jpg" alt="" loading="lazy" width="400" height="300"><span><b>Haarentfernung mit Wachs</b><small>Für Damen und Herren</small></span></a>
+<a class="tile" href="#massage"><img src="https://crazyformakeup.ch/wp-content/uploads/2022/07/maderotherapy-anti-cellulite-massage-with-wooden-r-2022-04-11-22-52-09-utc-1030x687.jpg" alt="" loading="lazy" width="400" height="300"><span><b>Massage</b><small>Madero und Entspannung</small></span></a>
+  </div>
+</div></section>
+
+<section class="block prices-wrap" id="preise"><div class="wrap">
+  <p class="kicker">Preise</p>
+  <h2>Angebote und Preise</h2>
+  <p class="lead">Alle Preise in Schweizer Franken. Ihren Termin buchen Sie bequem online oder per Telefon.</p>
+
+<article class="cat" id="make-up">
+  <div class="cat-head">
+    <img src="https://crazyformakeup.ch/wp-content/uploads/2022/07/eye-shadows-makeup-artist-working-2021-08-29-01-18-41-utc-705x529.jpg" alt="" loading="lazy" width="640" height="420">
+    <div>
+      <h3>Make-up</h3>
+      <p>Ob für den Alltag, einen besonderen Anlass oder Ihren grossen Tag: Ich schminke Sie so, dass Sie sich rundum wohlfühlen. Beim Braut- und Spezial-Make-up ist ein Probetermin inbegriffen.</p>
+      <a class="btn btn-small" href="https://booking.localsearch.ch/bookings/crazy-for-make-up-564f0227-c4b2-41ca-ba70-2f5c1109ea0f/services?locale=de-CH" target="_blank" rel="noopener">Termin buchen</a>
+    </div>
+  </div>
+  <div class="cat-prices"><div class="grp"><ul class="prices"><li><span class="pn">Tages-Make-up<small>1 Std.</small></span><span class="pp">CHF 70</span></li>
+<li><span class="pn">Abend-Make-up<small>1 Std. 30 Min.</small></span><span class="pp">CHF 120</span></li>
+<li><span class="pn">Smokey-Eyes-Make-up<small>45 Min.</small></span><span class="pp">CHF 80</span></li>
+<li><span class="pn">Foto-Make-up<small>1 Std. 15 Min.</small></span><span class="pp">CHF 120</span></li>
+<li><span class="pn">Camouflage-Make-up<small>45 Min.</small></span><span class="pp">CHF 80</span></li>
+<li><span class="pn">Kontur-Make-up<small>45 Min.</small></span><span class="pp">CHF 80</span></li>
+<li><span class="pn">Braut-Make-up inkl. Probetermin<small>1 Std. 30 Min.</small></span><span class="pp">CHF 280</span></li>
+<li><span class="pn">Spezial-Make-up inkl. Probetermin<small>1 Std. 30 Min.</small></span><span class="pp">CHF 280</span></li></ul></div></div>
+</article>
+
+<article class="cat" id="beratung">
+  <div class="cat-head">
+    <img src="https://crazyformakeup.ch/wp-content/uploads/2022/07/close-up-shot-of-red-lipsticks-of-various-shades-o-2021-08-29-19-39-07-utc-705x470.jpg" alt="" loading="lazy" width="640" height="420">
+    <div>
+      <h3>Make-up-Beratung</h3>
+      <p>Wie kommen Ihre Augen besser zur Geltung? Welches Make-up passt zu Ihnen, wie betonen Sie Ihre Lippen und wie gelingt ein Contouring ganz einfach? Ich zeige Ihnen, wie Sie Ihre Produkte richtig einsetzen – allein oder bei einem Schminknachmittag mit Freundinnen (ab 4 Personen).</p>
+      <a class="btn btn-small" href="https://booking.localsearch.ch/bookings/crazy-for-make-up-564f0227-c4b2-41ca-ba70-2f5c1109ea0f/services?locale=de-CH" target="_blank" rel="noopener">Termin buchen</a>
+    </div>
+  </div>
+  <div class="cat-prices"><div class="grp"><ul class="prices"><li><span class="pn">Individuelle Make-up-Beratung<small>pro Stunde</small></span><span class="pp">CHF 120</span></li>
+<li><span class="pn">Schminkberatung<small>1 Std. 30 Min.</small></span><span class="pp">CHF 120</span></li>
+<li><span class="pn">Gruppenberatung ab 4 Personen<small>pro Person</small></span><span class="pp">CHF 98</span></li></ul></div></div>
+</article>
+
+<article class="cat multi" id="wimpern">
+  <div class="cat-head">
+    <img src="https://crazyformakeup.ch/wp-content/uploads/2022/07/eyelash-extension-procedure-2022-01-07-23-08-33-utc-705x470.jpg" alt="" loading="lazy" width="640" height="420">
+    <div>
+      <h3>Wimpern und Augenbrauen</h3>
+      <p>Keine Lust mehr auf Mascara? Mit einer Wimpernverlängerung haben Sie dichte, lange Wimpern – nach dem Aufstehen, beim Sport und sogar beim Schwimmen. Ihre Augenbrauen bringe ich in eine Form, die zu Ihrem Gesicht passt.</p>
+      <a class="btn btn-small" href="https://booking.localsearch.ch/bookings/crazy-for-make-up-564f0227-c4b2-41ca-ba70-2f5c1109ea0f/services?locale=de-CH" target="_blank" rel="noopener">Termin buchen</a>
+    </div>
+  </div>
+  <div class="cat-prices"><div class="grp"><h4>Wimpernverlängerung</h4><ul class="prices"><li><span class="pn">Neuanlage 2–3D Volumentechnik<small>2 Std.</small></span><span class="pp">CHF 125</span></li>
+<li><span class="pn">Auffüllen 2–3D Volumentechnik, nach 2–3 Wochen<small>1 Std. 30 Min.</small></span><span class="pp">CHF 85</span></li>
+<li><span class="pn">Auffüllen 2–3D, nach 4 Wochen<small>1 Std. 30 Min.</small></span><span class="pp">CHF 90</span></li>
+<li><span class="pn">Neuanlage 1:1 Technik<small>2 Std.</small></span><span class="pp">CHF 99</span></li>
+<li><span class="pn">Auffüllen 1:1 Technik<small>1 Std. 30 Min.</small></span><span class="pp">CHF 75</span></li></ul></div><div class="grp"><h4>Wimpern und Augenbrauen</h4><ul class="prices"><li><span class="pn">Wimpernwelle ohne Färben<small>1 Std.</small></span><span class="pp">CHF 70</span></li>
+<li><span class="pn">Wimpernwelle mit Färben<small>1 Std.</small></span><span class="pp">CHF 90</span></li>
+<li><span class="pn">Wimpernlifting mit Färben<small>1 Std.</small></span><span class="pp">CHF 98</span></li>
+<li><span class="pn">Wimpern färben<small>30 Min.</small></span><span class="pp">CHF 25</span></li>
+<li><span class="pn">Augenbrauen färben<small>30 Min.</small></span><span class="pp">CHF 25</span></li>
+<li><span class="pn">Augenbrauen zupfen<small>30 Min.</small></span><span class="pp">CHF 25</span></li>
+<li><span class="pn">Augenbrauenlifting<small>1 Std.</small></span><span class="pp">CHF 75</span></li></ul></div></div>
+</article>
+
+<article class="cat" id="microblading">
+  <div class="cat-head">
+    <img src="https://crazyformakeup.ch/wp-content/uploads/2022/07/beauty-salon-microblading-eyebrows-2021-08-26-16-53-39-utc-845x684.jpg" alt="" loading="lazy" width="640" height="420">
+    <div>
+      <h3>Microblading und Permanent Make-up</h3>
+      <p>Mit Microblading zeichne ich Ihre Brauenhärchen ganz natürlich nach – ob Brauenhaare vorhanden sind oder nicht. Ein Permanent Make-up am Ober- oder Unterlid spart Ihnen jeden Morgen Zeit vor dem Spiegel.</p>
+      <a class="btn btn-small" href="https://booking.localsearch.ch/bookings/crazy-for-make-up-564f0227-c4b2-41ca-ba70-2f5c1109ea0f/services?locale=de-CH" target="_blank" rel="noopener">Termin buchen</a>
+    </div>
+  </div>
+  <div class="cat-prices"><div class="grp"><ul class="prices"><li><span class="pn">Microblading für Brauen<small>2 Std.</small></span><span class="pp">CHF 390</span></li>
+<li><span class="pn">Permanent Make-up Oberlid<small>1 Std. 45 Min.</small></span><span class="pp">CHF 300</span></li>
+<li><span class="pn">Permanent Make-up Unterlid<small>1 Std. 30 Min.</small></span><span class="pp">CHF 300</span></li>
+<li><span class="pn">Permanent Make-up Ober- und Unterlid<small>2 Std. 30 Min.</small></span><span class="pp">CHF 550</span></li></ul></div></div>
+</article>
+
+<article class="cat" id="gesicht">
+  <div class="cat-head">
+    <img src="https://crazyformakeup.ch/wp-content/uploads/2022/07/makeup-brush-and-decorative-cosmetics-on-a-white-b-2022-02-01-23-41-01-utc-1030x1030.jpg" alt="" loading="lazy" width="640" height="420">
+    <div>
+      <h3>Gesichtsbehandlung</h3>
+      <p>Hyaluron gilt als Wundermittel gegen Zeichen der Hautalterung. Bei der Gesichtsbehandlung verwende ich eine Kombination aus Hyaluron-Produkten, die der Haut Spannkraft und Elastizität zurückgeben sollen – eine schonende Anti-Aging-Behandlung.</p>
+      <a class="btn btn-small" href="https://booking.localsearch.ch/bookings/crazy-for-make-up-564f0227-c4b2-41ca-ba70-2f5c1109ea0f/services?locale=de-CH" target="_blank" rel="noopener">Termin buchen</a>
+    </div>
+  </div>
+  <div class="cat-prices"><div class="grp"><ul class="prices"><li><span class="pn">Gesichtsbehandlung mit Hyaluron<small>30 Min.</small></span><span class="pp">CHF 200</span></li></ul></div></div>
+</article>
+
+<article class="cat multi" id="naegel">
+  <div class="cat-head">
+    <img src="https://crazyformakeup.ch/wp-content/uploads/2022/07/lady-with-violet-manicure-nails-2021-12-15-21-22-49-utc-1030x688.jpg" alt="" loading="lazy" width="640" height="420">
+    <div>
+      <h3>Nägel</h3>
+      <p>Bei der Manicure und Pedicure entferne ich abgestorbene Hautzellen gründlich, pflege die Haut und bringe die Nägel in Form. Auf Wunsch mit Lack in Ihrer Lieblingsfarbe oder mit Gel.</p>
+      <a class="btn btn-small" href="https://booking.localsearch.ch/bookings/crazy-for-make-up-564f0227-c4b2-41ca-ba70-2f5c1109ea0f/services?locale=de-CH" target="_blank" rel="noopener">Termin buchen</a>
+    </div>
+  </div>
+  <div class="cat-prices"><div class="grp"><h4>Manicure</h4><ul class="prices"><li><span class="pn">Manicure ohne Lack<small>30 Min.</small></span><span class="pp">CHF 48</span></li>
+<li><span class="pn">Manicure mit Lack<small>40 Min.</small></span><span class="pp">CHF 55</span></li>
+<li><span class="pn">Manicure mit Gel<small>1 Std.</small></span><span class="pp">CHF 85</span></li>
+<li><span class="pn">Fingernägel French<small>1 Std.</small></span><span class="pp">CHF 90</span></li></ul></div><div class="grp"><h4>Pedicure</h4><ul class="prices"><li><span class="pn">Pedicure ohne Lack<small>50 Min.</small></span><span class="pp">CHF 75</span></li>
+<li><span class="pn">Pedicure mit Lack<small>1 Std.</small></span><span class="pp">CHF 83</span></li>
+<li><span class="pn">Pedicure mit Gellack<small>1 Std.</small></span><span class="pp">CHF 95</span></li></ul></div></div>
+</article>
+
+<article class="cat multi" id="waxing">
+  <div class="cat-head">
+    <img src="https://crazyformakeup.ch/wp-content/uploads/2022/07/liquid-sugar-wax-on-spatula-smooth-2021-09-02-12-43-21-utc-1030x688.jpg" alt="" loading="lazy" width="640" height="420">
+    <div>
+      <h3>Haarentfernung mit Wachs</h3>
+      <p>Waxing hält deutlich länger als Rasieren, weil das Haar mitsamt der Wurzel entfernt wird. Ideal ist eine Haarlänge von 3 bis 5 mm, höchstens 1 cm – so ist die Behandlung möglichst schmerzfrei.</p>
+      <a class="btn btn-small" href="https://booking.localsearch.ch/bookings/crazy-for-make-up-564f0227-c4b2-41ca-ba70-2f5c1109ea0f/services?locale=de-CH" target="_blank" rel="noopener">Termin buchen</a>
+    </div>
+  </div>
+  <div class="cat-prices"><div class="grp"><h4>Damen</h4><ul class="prices"><li><span class="pn">Oberlippe<small>15 Min.</small></span><span class="pp">CHF 20</span></li>
+<li><span class="pn">Augenbrauen<small>10 Min.</small></span><span class="pp">CHF 20</span></li>
+<li><span class="pn">Achseln<small>20 Min.</small></span><span class="pp">CHF 30</span></li>
+<li><span class="pn">Unterarme<small>20 Min.</small></span><span class="pp">CHF 25</span></li>
+<li><span class="pn">Oberarme<small>20 Min.</small></span><span class="pp">CHF 25</span></li>
+<li><span class="pn">Arme komplett<small>30 Min.</small></span><span class="pp">CHF 45</span></li>
+<li><span class="pn">Unterschenkel<small>30 Min.</small></span><span class="pp">CHF 45</span></li>
+<li><span class="pn">Oberschenkel<small>30 Min.</small></span><span class="pp">CHF 45</span></li>
+<li><span class="pn">Beine komplett<small>45 Min.</small></span><span class="pp">CHF 75</span></li>
+<li><span class="pn">Bikini<small>25 Min.</small></span><span class="pp">CHF 40</span></li>
+<li><span class="pn">Intim<small>25 Min.</small></span><span class="pp">CHF 55</span></li></ul></div><div class="grp"><h4>Herren</h4><ul class="prices"><li><span class="pn">Augenbrauen<small>10 Min.</small></span><span class="pp">CHF 20</span></li>
+<li><span class="pn">Achseln<small>20 Min.</small></span><span class="pp">CHF 40</span></li>
+<li><span class="pn">Unterarme<small>20 Min.</small></span><span class="pp">CHF 40</span></li>
+<li><span class="pn">Oberarme<small>20 Min.</small></span><span class="pp">CHF 40</span></li>
+<li><span class="pn">Arme komplett<small>40 Min.</small></span><span class="pp">CHF 75</span></li>
+<li><span class="pn">Brust<small>30 Min.</small></span><span class="pp">CHF 40</span></li>
+<li><span class="pn">Bauch<small>25 Min.</small></span><span class="pp">CHF 40</span></li>
+<li><span class="pn">Rücken und Schultern<small>40 Min.</small></span><span class="pp">CHF 89</span></li>
+<li><span class="pn">Unterschenkel<small>25 Min.</small></span><span class="pp">CHF 45</span></li>
+<li><span class="pn">Oberschenkel<small>25 Min.</small></span><span class="pp">CHF 45</span></li>
+<li><span class="pn">Beine komplett<small>50 Min.</small></span><span class="pp">CHF 89</span></li></ul></div></div>
+</article>
+
+<article class="cat" id="massage">
+  <div class="cat-head">
+    <img src="https://crazyformakeup.ch/wp-content/uploads/2022/07/maderotherapy-anti-cellulite-massage-with-wooden-r-2022-04-11-22-52-09-utc-1030x687.jpg" alt="" loading="lazy" width="640" height="420">
+    <div>
+      <h3>Massage</h3>
+      <p>Bei der Madero-Massage arbeite ich mit anatomisch geformten Holzrollen aus Buchenholz, die Bindegewebe und Lymphsystem anregen. Zum Abschalten gibt es die Entspannungsmassage für den Rücken.</p>
+      <a class="btn btn-small" href="https://booking.localsearch.ch/bookings/crazy-for-make-up-564f0227-c4b2-41ca-ba70-2f5c1109ea0f/services?locale=de-CH" target="_blank" rel="noopener">Termin buchen</a>
+    </div>
+  </div>
+  <div class="cat-prices"><div class="grp"><ul class="prices"><li><span class="pn">Entspannungsmassage Rücken<small>40 Min.</small></span><span class="pp">CHF 80</span></li>
+<li><span class="pn">Madero-Massage<small>50 Min.</small></span><span class="pp">CHF 90</span></li>
+<li><span class="pn">Madero-Massage<small>1 Std. 45 Min.</small></span><span class="pp">CHF 130</span></li>
+<li><span class="pn">Madero-Massage, 10er-Abo<small>je 50 Min.</small></span><span class="pp">CHF 850</span></li>
+<li><span class="pn">Madero-Massage, 10er-Abo<small>je 1 Std. 45 Min.</small></span><span class="pp">CHF 1&#x27;200</span></li></ul></div></div>
+</article>
+</div></section>
+
+<section class="block" id="ueber-mich"><div class="wrap about">
+  <img src="https://crazyformakeup.ch/wp-content/uploads/2022/08/IMG_4357.jpg" alt="Rita Mühlethaler in ihrem Studio" loading="lazy" width="380" height="568">
+  <div>
+    <p class="kicker">Über mich</p>
+    <h2>Rita Mühlethaler</h2>
+    <p>Kosmetik, Make-up und die Trends im Beauty-Bereich faszinieren mich immer wieder neu. Nach verschiedenen Berufen habe ich meine Berufung als Visagistin gefunden, ausgebildet als Visagist of Mask.</p>
+    <p>In meinem Studio in Männedorf nehme ich mir Zeit für Sie: vom Tages-Make-up über Wimpern und Microblading bis zur Manicure, Waxing oder Massage. Meine Tipps und Tricks gebe ich Ihnen dabei gerne weiter.</p>
+    <p class="brands">Ich arbeite mit Qualitätsprodukten von <b>MAC</b>, <b>Urban Decay</b>, <b>Inglot</b> und <b>Kryolan</b>.</p>
+  </div>
+</div></section>
+
+<section class="block prices-wrap" id="kontakt"><div class="wrap">
+  <p class="kicker">Kontakt</p>
+  <h2>So erreichen Sie mich</h2>
+  <div class="contact">
+    <div class="card">
+      <h3>Öffnungszeiten</h3>
+      <ul class="hours">
+        <li><span>Montag</span><span>10:00 – 18:00</span></li>
+        <li><span>Dienstag</span><span>10:00 – 18:00</span></li>
+        <li class="closed"><span>Mittwoch</span><span>geschlossen</span></li>
+        <li class="closed"><span>Donnerstag</span><span>geschlossen</span></li>
+        <li><span>Freitag</span><span>10:00 – 18:00</span></li>
+        <li class="closed"><span>Samstag und Sonntag</span><span>geschlossen</span></li>
+      </ul>
+      <p style="margin:0;color:var(--mute);font-size:15px">Weitere Termine nach telefonischer Vereinbarung.</p>
+    </div>
+    <div class="card">
+      <h3>Crazy for Make-Up</h3>
+      <ul class="lines">
+        <li><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></g></svg><span>Rita Mühlethaler<br>Kugelgasse 1, 8708 Männedorf<br><a href="https://www.google.com/maps/search/?api=1&query=Kugelgasse+1%2C+8708+M%C3%A4nnedorf" target="_blank" rel="noopener">Route in Google Maps</a></span></li>
+        <li><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg><a href="tel:+41799047454">079 904 74 54</a></li>
+        <li><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6 8.5 7 8.5-7"/></g></svg><a href="mailto:info@crazyformakeup.ch">info@crazyformakeup.ch</a></li>
+      </ul>
+      <a class="btn" href="https://booking.localsearch.ch/bookings/crazy-for-make-up-564f0227-c4b2-41ca-ba70-2f5c1109ea0f/services?locale=de-CH" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></g></svg>Termin online buchen</a>
+    </div>
+  </div>
+  <div class="cta-book">
+    <div><h3>Lust auf etwas Neues?</h3><p>Buchen Sie Ihren Termin online, rund um die Uhr.</p></div>
+    <a class="btn" href="https://booking.localsearch.ch/bookings/crazy-for-make-up-564f0227-c4b2-41ca-ba70-2f5c1109ea0f/services?locale=de-CH" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></g></svg>Jetzt Termin buchen</a>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <div>© 2026 Crazy for Make-Up · Männedorf</div>
+  <details>
+    <summary>Impressum</summary>
+    <p>Crazy for Make-Up, Rita Mühlethaler<br>Kugelgasse 1, 8708 Männedorf, Schweiz<br>Telefon +41 79 904 74 54 · <a href="mailto:info@crazyformakeup.ch">info@crazyformakeup.ch</a></p>
+    <p>Website: Kabra Ostschweiz, Wil SG</p>
+  </details>
+  <div>Datenschutzerklärung folgt</div>
+</div></footer>
+
+<div class="mobilebar">
+  <a class="btn ghost" href="tel:+41799047454"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg>Anrufen</a>
+  <a class="btn" href="https://booking.localsearch.ch/bookings/crazy-for-make-up-564f0227-c4b2-41ca-ba70-2f5c1109ea0f/services?locale=de-CH" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></g></svg>Termin buchen</a>
+</div>
+</body>
+</html>
